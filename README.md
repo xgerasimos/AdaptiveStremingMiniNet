@@ -40,15 +40,10 @@ the poorer the selected resolution. However, we observed that the resolution of 
 broadcast video would not always change immediately, as a result of the existence of
 the buffer at the video client.
 
-The structure of this thesis is the following: Chapter 1 provides a detailed overview of
-the mobile networks’ evolution from the first generation to the fifth one. Chapter 2
-describes in detail the HTTP Adaptive Streaming (HAS) technology in terms of its
-architecture, its advantages and disadvantages. It also describes the architecture of
-DASH technology, its implementation and the additional advantages it offers. Chapter 3
-is about QoE, the way in which it is calculated through specific models, and its influence
-on HTTP video streaming technology. All the necessary programs in order to conduct
-the experiments presented in this thesis, as well as any necessary settings, can be
-found in Chapter 4. Chapter 5 provides an in-depth analysis of the design of the
-experiments, during which a decrease in the quality of the user’s experience was
-observed. It also presents the obtained results. Finally, Chapter 6 summarizes the
-conclusions of this thesis and discusses future work topics.
+The structure of this thesis is the following: 
+- Chapter 1 provides a detailed overview of the mobile networks’ evolution from the first generation to the fifth one.
+- Chapter 2 describes in detail the HTTP Adaptive Streaming (HAS) technology in terms of its architecture, its advantages and disadvantages. It also describes the architecture of DASH technology, its implementation and the additional advantages it offers.
+- Chapter 3 is about QoE, the way in which it is calculated through specific models, and its influence on HTTP video streaming technology.
+- **All the necessary programs in order to conduct the experiments presented in this thesis, as well as any necessary settings, can be found in Chapter 4.**
+- Chapter 5 provides an in-depth analysis of the design of the experiments, during which a decrease in the quality of the user’s experience was observed. It also presents the obtained results.
+- Chapter 6 summarizes the conclusions of this thesis and discusses future work topics.
