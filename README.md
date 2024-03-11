@@ -1,8 +1,26 @@
+Adaptive Streming MiniNe - Emulation of HTTP Adaptive Video Streaming over SDN
+==============================================================================
+
+### How does it work?
+
 All the instructions on running the project, along with comprehensive details on the underlying logic, are available through the provided [link](https://pergamos.lib.uoa.gr/uoa/dl/object/2898147/file.pdf). 
 This information is integral to a master's thesis titled 'Emulation of HTTP Adaptive Video Streaming over SDN.' 
 Please note that uploading the code is prohibited as per the regulations of the DIT department.
 
-**ABSTRACT**
+### What is Mininet?
+
+Mininet emulates a complete network of hosts, links, and switches
+on a single machine.  
+
+Mininet is useful for interactive development, testing, and demos,
+especially those using OpenFlow and SDN.  OpenFlow-based network
+controllers prototyped in Mininet can usually be transferred to
+hardware with minimal changes for full line-rate execution.
+
+*For additional information, please refer to the main repository that serves as the foundation for this project, accessible at this [location](https://github.com/xgerasimos/mininet).*
+
+### The Master Thesis Abstract
+
 Video streaming is growing into a well-known technology for media transmission over
 the Internet. Dynamic Adaptive Streaming over HTTP (DASH) permits transmitting data
 streams to a user with the largest feasible bit rate in different bandwidth situations which
@@ -21,6 +39,7 @@ connected with the existing traffic in the network and in particular the higher 
 the poorer the selected resolution. However, we observed that the resolution of the
 broadcast video would not always change immediately, as a result of the existence of
 the buffer at the video client.
+
 The structure of this thesis is the following: Chapter 1 provides a detailed overview of
 the mobile networks’ evolution from the first generation to the fifth one. Chapter 2
 describes in detail the HTTP Adaptive Streaming (HAS) technology in terms of its
